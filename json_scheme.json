@@ -1,0 +1,45 @@
+{
+    "id": "global-schema.json",
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Global Schema",
+    "description": "Scheme allows validation of the file 'ovk_vendorinfo.json'. All changes to 'ovk_vendorinfo.json' must validate against this scheme before a merge will be approved. Currently in development.",
+    "definitions": {
+        "vendorEntry": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        }
+    },
+    "type": "object",
+    "properties": {
+        "vendorListVersion": {
+            "type": "number"
+        },
+        "lastUpdated": {
+            "type": "time"
+        },
+        "vendors": {
+            "type": "array",
+            "description": "entry for an iab vendor",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "$ref": "#/definitions/vendorEntry"
+            }
+        },
+        "required": [
+            "vendorListVersion",
+            "lastUpdated"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "vendorListVersion": 1,
+    "lastUpdated": "2020-08-20T11:00:08Z",
+    "macrosDefault": ["#{gdpr}","${gdpr_consent}"],
+    "vendors": [
+        {
+            "id": 136,
+            "name": "Str\u00f6er SSP GmbH",
+            "domains": [],
+            "macros": ["%%gdpr%%","${gdpr_consent}"]
+        },
+        {
+            "id": 578,
+            "name": "MAIRDUMONT NETLETIX GmbH&amp;Co. KG",
+            "domains": ["md-nx.com", "mairdumont-netletix.com"],
+            "macros": ["%%gdpr%%","${gdpr_consent}"]
+        },
+        {
+            "id": 647,
+            "name": "Axel Springer Teaser Ad GmbH",
+            "domains": ["d.adup-tech.com", "*.adtech.as", "t.d.adup-tech.com", "s.d.adup-tech.com", "*.adup-tech.com"],
+            "macros": ["%%gdpr%%","${gdpr_consent}"]
+        }
+    ]
+}
