@@ -20,6 +20,7 @@
             "name": "Axel Springer Teaser Ad GmbH",
             "domains": ["d.adup-tech.com", "*.adtech.as", "t.d.adup-tech.com", "s.d.adup-tech.com", "*.adup-tech.com"],
             "macros": ["%%gdpr%%","${gdpr_consent}"]
-        }
+        },
+        "id"
     ]
 }
