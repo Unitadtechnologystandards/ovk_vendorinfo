@@ -1,15 +1,26 @@
 # ovk_vendorinfo
-Information about IAB TCF2.0 tech vendors, including used domains of the vendor and which tag/script placeholders can be used to pass TCF2.0 consent data.
+Information about IAB TCF2.0 tech vendors, including used domains of the vendor and which tag/script placeholders are available to pass TCF2.0 consent data.
 
-You can either download the list directly from the git (you will need a validate account to do so) or by opening the URL -------
+You can either download the list directly from gitHub (you will need a validate account to do so) or by opening the URL -------
 
 Please download and cache the list on your servers, to minimize traffic & costs. 
 
 ## Vendor list format
-All vendor information are stored JSON format in the file ovk_vendorinfo.json<br><br>
-Fields:
-- vendorListVersion {number} - the current version of the file. You can use this field to compare it to your locally cached file
-- lastUpdated {date}- the last time the list was updated. You can use this field to decide if your locally cached file is out of date
+All vendor information are stored as JSON format in  file ovk_vendorinfo.json<br><br>
+```
+{
+    "vendorListVersion": 8799,
+    "lastUpdated": "2020-08-20T11:00:08Z",
+    "macrosDefault": ["${gdpr}","${gdpr_consent}"],
+    "vendors": [
+       {},
+       {}
+    ]
+}
+```
+
+- vendorListVersion {number} - the current version of the file. Can be used to compare it to your locally cached file
+- lastUpdated {date}- the last time the list was updated. Can be used to decide if your locally cached file is out of date
 - macrosDefault {array.string} - the standard macros used by the IAB TCF2.0 to pass consent data to tech vendors. This should work for most vendors, but some might use other macros.
 - vendors {array.object(VendorObject)} -  a list of known vendors and their respective properties
 
