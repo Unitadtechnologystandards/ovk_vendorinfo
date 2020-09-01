@@ -1,25 +1,2615 @@
 {
-    "vendorListVersion": 1,
-    "lastUpdated": "2020-08-20T11:00:08Z",
-    "macrosDefault": ["${gdpr}","${gdpr_consent}"],
-    "vendors": [
-        {
-            "id": 136,
-            "name": "Str\u00f6er SSP GmbH",
-            "domains": [],
-            "macros": []
-        },
-        {
-            "id": 578,
-            "name": "MAIRDUMONT NETLETIX GmbH&amp;Co. KG",
-            "domains": ["md-nx.com", "mairdumont-netletix.com"],
-            "macros": []
-        },
-        {
-            "id": 647,
-            "name": "Axel Springer Teaser Ad GmbH",
-            "domains": ["d.adup-tech.com", "*.adtech.as", "t.d.adup-tech.com", "s.d.adup-tech.com", "*.adup-tech.com"],
-            "macros": []
-        }
-    ]
+  "vendorListVersion": 2,
+  "lastUpdated": "2020-08-20T11:00:08Z",
+  "macrosDefault": [
+    "${gdpr}",
+    "${gdpr_consent}"
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Exponential Interactive, Inc d/b/a VDX.tv",
+      "domains": []
+    },
+    {
+      "id": 2,
+      "name": "Captify Technologies Limited",
+      "domains": []
+    },
+    {
+      "id": 4,
+      "name": "Roq.ad Inc.",
+      "domains": []
+    },
+    {
+      "id": 6,
+      "name": "AdSpirit GmbH",
+      "domains": []
+    },
+    {
+      "id": 7,
+      "name": "Vibrant Media Limited",
+      "domains": []
+    },
+    {
+      "id": 8,
+      "name": "Emerse Sverige AB",
+      "domains": []
+    },
+    {
+      "id": 9,
+      "name": "AdMaxim Inc.",
+      "domains": []
+    },
+    {
+      "id": 10,
+      "name": "Index Exchange, Inc. ",
+      "domains": []
+    },
+    {
+      "id": 11,
+      "name": "Quantcast International Limited",
+      "domains": []
+    },
+    {
+      "id": 12,
+      "name": "BeeswaxIO Corporation",
+      "domains": []
+    },
+    {
+      "id": 13,
+      "name": "Sovrn Holdings Inc",
+      "domains": []
+    },
+    {
+      "id": 14,
+      "name": "Adkernel LLC",
+      "domains": []
+    },
+    {
+      "id": 15,
+      "name": "Adikteev",
+      "domains": []
+    },
+    {
+      "id": 16,
+      "name": "RTB House S.A.",
+      "domains": []
+    },
+    {
+      "id": 18,
+      "name": "Widespace AB",
+      "domains": []
+    },
+    {
+      "id": 20,
+      "name": "N Technologies Inc.",
+      "domains": []
+    },
+    {
+      "id": 21,
+      "name": "The Trade Desk",
+      "domains": []
+    },
+    {
+      "id": 22,
+      "name": "admetrics GmbH",
+      "domains": []
+    },
+    {
+      "id": 23,
+      "name": "Amobee, Inc. ",
+      "domains": []
+    },
+    {
+      "id": 24,
+      "name": "Epsilon",
+      "domains": []
+    },
+    {
+      "id": 25,
+      "name": "Verizon Media EMEA Limited",
+      "domains": []
+    },
+    {
+      "id": 26,
+      "name": "Venatus Media Limited",
+      "domains": []
+    },
+    {
+      "id": 28,
+      "name": "TripleLift, Inc.",
+      "domains": []
+    },
+    {
+      "id": 30,
+      "name": "BidTheatre AB",
+      "domains": []
+    },
+    {
+      "id": 31,
+      "name": "Ogury Ltd.",
+      "domains": []
+    },
+    {
+      "id": 32,
+      "name": "Xandr, Inc.",
+      "domains": []
+    },
+    {
+      "id": 33,
+      "name": "ShareThis, Inc",
+      "domains": []
+    },
+    {
+      "id": 34,
+      "name": "NEORY GmbH",
+      "domains": []
+    },
+    {
+      "id": 36,
+      "name": "RhythmOne DBA Unruly Group Ltd",
+      "domains": []
+    },
+    {
+      "id": 37,
+      "name": "NEURAL.ONE",
+      "domains": []
+    },
+    {
+      "id": 39,
+      "name": "ADITION technologies AG",
+      "domains": []
+    },
+    {
+      "id": 40,
+      "name": "Active Agent (ADITION technologies AG)",
+      "domains": []
+    },
+    {
+      "id": 41,
+      "name": "Adverline",
+      "domains": []
+    },
+    {
+      "id": 42,
+      "name": "Taboola Europe Limited",
+      "domains": []
+    },
+    {
+      "id": 44,
+      "name": "The ADEX GmbH",
+      "domains": []
+    },
+    {
+      "id": 45,
+      "name": "Smart Adserver",
+      "domains": []
+    },
+    {
+      "id": 47,
+      "name": "ADMAN - Phaistos Networks, S.A.",
+      "domains": []
+    },
+    {
+      "id": 49,
+      "name": "TRADELAB",
+      "domains": []
+    },
+    {
+      "id": 50,
+      "name": "Adform",
+      "domains": []
+    },
+    {
+      "id": 51,
+      "name": "xAd, Inc. dba GroundTruth",
+      "domains": []
+    },
+    {
+      "id": 52,
+      "name": "The Rubicon Project, Inc. ",
+      "domains": []
+    },
+    {
+      "id": 53,
+      "name": "Sirdata",
+      "domains": []
+    },
+    {
+      "id": 57,
+      "name": "ADARA MEDIA UNLIMITED",
+      "domains": []
+    },
+    {
+      "id": 58,
+      "name": "33Across",
+      "domains": []
+    },
+    {
+      "id": 59,
+      "name": "Sift Media, Inc",
+      "domains": []
+    },
+    {
+      "id": 60,
+      "name": "Rakuten Marketing LLC",
+      "domains": []
+    },
+    {
+      "id": 61,
+      "name": "GumGum, Inc.",
+      "domains": []
+    },
+    {
+      "id": 62,
+      "name": "Justpremium BV",
+      "domains": []
+    },
+    {
+      "id": 63,
+      "name": "Avocet Systems Limited",
+      "domains": []
+    },
+    {
+      "id": 65,
+      "name": "Location Sciences AI Ltd.",
+      "domains": []
+    },
+    {
+      "id": 66,
+      "name": "adsquare GmbH",
+      "domains": []
+    },
+    {
+      "id": 67,
+      "name": "LifeStreet Corporation",
+      "domains": []
+    },
+    {
+      "id": 68,
+      "name": "Sizmek by Amazon",
+      "domains": []
+    },
+    {
+      "id": 69,
+      "name": "OpenX",
+      "domains": []
+    },
+    {
+      "id": 70,
+      "name": "Yieldlab AG",
+      "domains": []
+    },
+    {
+      "id": 71,
+      "name": "Roku Advertising Services",
+      "domains": []
+    },
+    {
+      "id": 72,
+      "name": "Nano Interactive GmbH",
+      "domains": []
+    },
+    {
+      "id": 73,
+      "name": "Simplifi Holdings Inc.",
+      "domains": []
+    },
+    {
+      "id": 76,
+      "name": "PubMatic, Inc.",
+      "domains": []
+    },
+    {
+      "id": 77,
+      "name": "comScore, Inc.",
+      "domains": []
+    },
+    {
+      "id": 78,
+      "name": "Flashtalking, Inc.",
+      "domains": []
+    },
+    {
+      "id": 79,
+      "name": "MediaMath, Inc.",
+      "domains": []
+    },
+    {
+      "id": 80,
+      "name": "Sharethrough, Inc",
+      "domains": []
+    },
+    {
+      "id": 82,
+      "name": "Smaato, Inc.",
+      "domains": []
+    },
+    {
+      "id": 83,
+      "name": "Visarity Technologies GmbH",
+      "domains": []
+    },
+    {
+      "id": 84,
+      "name": "Semasio GmbH",
+      "domains": []
+    },
+    {
+      "id": 85,
+      "name": "Crimtan Holdings Limited",
+      "domains": []
+    },
+    {
+      "id": 86,
+      "name": "Scene Stealer Limited",
+      "domains": []
+    },
+    {
+      "id": 88,
+      "name": "TreSensa, Inc.",
+      "domains": []
+    },
+    {
+      "id": 89,
+      "name": "Tapad, Inc.",
+      "domains": []
+    },
+    {
+      "id": 90,
+      "name": "Teroa S.A.",
+      "domains": []
+    },
+    {
+      "id": 91,
+      "name": "Criteo SA",
+      "domains": []
+    },
+    {
+      "id": 92,
+      "name": "1plusX AG",
+      "domains": []
+    },
+    {
+      "id": 93,
+      "name": "Adloox SA",
+      "domains": []
+    },
+    {
+      "id": 94,
+      "name": "Blis Media Limited",
+      "domains": []
+    },
+    {
+      "id": 95,
+      "name": "Lotame Solutions, inc",
+      "domains": []
+    },
+    {
+      "id": 97,
+      "name": "LiveRamp, Inc.",
+      "domains": []
+    },
+    {
+      "id": 98,
+      "name": "GroupM UK Limited",
+      "domains": []
+    },
+    {
+      "id": 100,
+      "name": "Fifty Technology Limited",
+      "domains": []
+    },
+    {
+      "id": 101,
+      "name": "MiQ",
+      "domains": []
+    },
+    {
+      "id": 102,
+      "name": "Telaria SAS",
+      "domains": []
+    },
+    {
+      "id": 104,
+      "name": "Sonobi, Inc",
+      "domains": []
+    },
+    {
+      "id": 108,
+      "name": "Rich Audience Technologies SL",
+      "domains": []
+    },
+    {
+      "id": 109,
+      "name": "LoopMe Limited",
+      "domains": []
+    },
+    {
+      "id": 110,
+      "name": "Dynata LLC",
+      "domains": []
+    },
+    {
+      "id": 111,
+      "name": "Showheroes SE",
+      "domains": []
+    },
+    {
+      "id": 114,
+      "name": "Sublime",
+      "domains": []
+    },
+    {
+      "id": 115,
+      "name": "smartclip Europe GmbH",
+      "domains": []
+    },
+    {
+      "id": 119,
+      "name": "Fusio by S4M",
+      "domains": []
+    },
+    {
+      "id": 120,
+      "name": "Eyeota Pte Ltd",
+      "domains": []
+    },
+    {
+      "id": 122,
+      "name": "Avid Media Ltd",
+      "domains": []
+    },
+    {
+      "id": 124,
+      "name": "Teemo SA",
+      "domains": []
+    },
+    {
+      "id": 126,
+      "name": "DoubleVerify Inc.​",
+      "domains": []
+    },
+    {
+      "id": 127,
+      "name": "PIXIMEDIA SAS",
+      "domains": []
+    },
+    {
+      "id": 128,
+      "name": "BIDSWITCH GmbH",
+      "domains": []
+    },
+    {
+      "id": 129,
+      "name": "IPONWEB GmbH",
+      "domains": []
+    },
+    {
+      "id": 130,
+      "name": "NextRoll, Inc.",
+      "domains": []
+    },
+    {
+      "id": 131,
+      "name": "ID5 Technology SAS",
+      "domains": []
+    },
+    {
+      "id": 132,
+      "name": "Teads ",
+      "domains": []
+    },
+    {
+      "id": 133,
+      "name": "digitalAudience",
+      "domains": []
+    },
+    {
+      "id": 134,
+      "name": "SMARTSTREAM.TV GmbH",
+      "domains": []
+    },
+    {
+      "id": 136,
+      "name": "Ströer SSP GmbH (SSP)",
+      "domains": []
+    },
+    {
+      "id": 137,
+      "name": "Ströer SSP GmbH (DSP)",
+      "domains": []
+    },
+    {
+      "id": 138,
+      "name": "ConnectAd Realtime GmbH",
+      "domains": []
+    },
+    {
+      "id": 139,
+      "name": "Permodo GmbH",
+      "domains": []
+    },
+    {
+      "id": 140,
+      "name": "Platform161",
+      "domains": []
+    },
+    {
+      "id": 141,
+      "name": "1020, Inc. dba Placecast and Ericsson Emodo",
+      "domains": []
+    },
+    {
+      "id": 142,
+      "name": "Media.net Advertising FZ-LLC",
+      "domains": []
+    },
+    {
+      "id": 143,
+      "name": "Connatix Native Exchange Inc.",
+      "domains": []
+    },
+    {
+      "id": 144,
+      "name": "district m inc.",
+      "domains": []
+    },
+    {
+      "id": 145,
+      "name": "Snapsort Inc., operating as Sortable",
+      "domains": []
+    },
+    {
+      "id": 147,
+      "name": "Adacado Technologies Inc. (DBA Adacado)",
+      "domains": []
+    },
+    {
+      "id": 149,
+      "name": "ADman Interactive SLU",
+      "domains": []
+    },
+    {
+      "id": 150,
+      "name": "Inskin Media LTD",
+      "domains": []
+    },
+    {
+      "id": 152,
+      "name": "Meetrics GmbH",
+      "domains": []
+    },
+    {
+      "id": 153,
+      "name": "MADVERTISE MEDIA",
+      "domains": []
+    },
+    {
+      "id": 154,
+      "name": "YOC AG",
+      "domains": []
+    },
+    {
+      "id": 155,
+      "name": "AntVoice",
+      "domains": []
+    },
+    {
+      "id": 157,
+      "name": "Seedtag Advertising S.L",
+      "domains": []
+    },
+    {
+      "id": 158,
+      "name": "Reveal Mobile, Inc",
+      "domains": []
+    },
+    {
+      "id": 159,
+      "name": "Underdog Media LLC ",
+      "domains": []
+    },
+    {
+      "id": 160,
+      "name": "Netsprint SA",
+      "domains": []
+    },
+    {
+      "id": 161,
+      "name": "Smadex SL",
+      "domains": []
+    },
+    {
+      "id": 162,
+      "name": "Unruly Group Ltd",
+      "domains": []
+    },
+    {
+      "id": 163,
+      "name": "Bombora Inc.",
+      "domains": []
+    },
+    {
+      "id": 164,
+      "name": "Outbrain UK Ltd",
+      "domains": []
+    },
+    {
+      "id": 165,
+      "name": "SpotX, Inc.",
+      "domains": []
+    },
+    {
+      "id": 167,
+      "name": "Audiens S.r.l.",
+      "domains": []
+    },
+    {
+      "id": 168,
+      "name": "EASYmedia GmbH",
+      "domains": []
+    },
+    {
+      "id": 173,
+      "name": "Yieldmo, Inc.",
+      "domains": []
+    },
+    {
+      "id": 174,
+      "name": "A Million Ads Ltd",
+      "domains": []
+    },
+    {
+      "id": 177,
+      "name": "plista GmbH",
+      "domains": []
+    },
+    {
+      "id": 178,
+      "name": "Hybrid Theory",
+      "domains": []
+    },
+    {
+      "id": 179,
+      "name": "Collective Europe Ltd.",
+      "domains": []
+    },
+    {
+      "id": 183,
+      "name": "EMX Digital LLC",
+      "domains": []
+    },
+    {
+      "id": 184,
+      "name": "mediarithmics SAS",
+      "domains": []
+    },
+    {
+      "id": 185,
+      "name": "Bidtellect, Inc",
+      "domains": []
+    },
+    {
+      "id": 190,
+      "name": "video intelligence AG",
+      "domains": []
+    },
+    {
+      "id": 192,
+      "name": "remerge GmbH",
+      "domains": []
+    },
+    {
+      "id": 193,
+      "name": "Mediasmart Mobile S.L.",
+      "domains": []
+    },
+    {
+      "id": 194,
+      "name": "Rezonence Limited",
+      "domains": []
+    },
+    {
+      "id": 195,
+      "name": "advanced store GmbH",
+      "domains": []
+    },
+    {
+      "id": 199,
+      "name": "ADUX",
+      "domains": []
+    },
+    {
+      "id": 200,
+      "name": "Tapjoy, Inc.",
+      "domains": []
+    },
+    {
+      "id": 202,
+      "name": "Telaria, Inc",
+      "domains": []
+    },
+    {
+      "id": 203,
+      "name": "Revcontent, LLC",
+      "domains": []
+    },
+    {
+      "id": 205,
+      "name": "Adssets AB",
+      "domains": []
+    },
+    {
+      "id": 206,
+      "name": "Hybrid Adtech GmbH",
+      "domains": []
+    },
+    {
+      "id": 209,
+      "name": "Delta Projects AB",
+      "domains": []
+    },
+    {
+      "id": 210,
+      "name": "Zemanta, Inc.",
+      "domains": []
+    },
+    {
+      "id": 211,
+      "name": "AdTheorent, Inc",
+      "domains": []
+    },
+    {
+      "id": 212,
+      "name": "usemax advertisement (Emego GmbH)",
+      "domains": []
+    },
+    {
+      "id": 213,
+      "name": "emetriq GmbH",
+      "domains": []
+    },
+    {
+      "id": 215,
+      "name": "ARMIS SAS",
+      "domains": []
+    },
+    {
+      "id": 216,
+      "name": "Mindlytix SAS",
+      "domains": []
+    },
+    {
+      "id": 217,
+      "name": "2KDirect, Inc. (dba iPromote)",
+      "domains": []
+    },
+    {
+      "id": 218,
+      "name": "Bigabid Media ltd",
+      "domains": []
+    },
+    {
+      "id": 223,
+      "name": "Audience Trading Platform Ltd.",
+      "domains": []
+    },
+    {
+      "id": 224,
+      "name": "adrule mobile GmbH",
+      "domains": []
+    },
+    {
+      "id": 226,
+      "name": "Publicis Media GmbH",
+      "domains": []
+    },
+    {
+      "id": 227,
+      "name": "ORTEC B.V.",
+      "domains": []
+    },
+    {
+      "id": 228,
+      "name": "McCann Discipline LTD",
+      "domains": []
+    },
+    {
+      "id": 231,
+      "name": "AcuityAds Inc.",
+      "domains": []
+    },
+    {
+      "id": 234,
+      "name": "ZBO Media",
+      "domains": []
+    },
+    {
+      "id": 235,
+      "name": "Bucksense Inc",
+      "domains": []
+    },
+    {
+      "id": 238,
+      "name": "StackAdapt",
+      "domains": []
+    },
+    {
+      "id": 239,
+      "name": "Triton Digital Canada Inc.",
+      "domains": []
+    },
+    {
+      "id": 240,
+      "name": "7Hops.com Inc. (ZergNet)",
+      "domains": []
+    },
+    {
+      "id": 241,
+      "name": "OneTag Limited",
+      "domains": []
+    },
+    {
+      "id": 242,
+      "name": "twiago GmbH",
+      "domains": []
+    },
+    {
+      "id": 243,
+      "name": "Cloud Technologies S.A.",
+      "domains": []
+    },
+    {
+      "id": 244,
+      "name": "Temelio",
+      "domains": []
+    },
+    {
+      "id": 246,
+      "name": "Smartology Limited",
+      "domains": []
+    },
+    {
+      "id": 248,
+      "name": "Converge-Digital",
+      "domains": []
+    },
+    {
+      "id": 249,
+      "name": "Spolecznosci Sp. z o.o. Sp. k.",
+      "domains": []
+    },
+    {
+      "id": 250,
+      "name": "Qriously Ltd",
+      "domains": []
+    },
+    {
+      "id": 251,
+      "name": "Yieldlove GmbH",
+      "domains": []
+    },
+    {
+      "id": 252,
+      "name": "Jaduda GmbH",
+      "domains": []
+    },
+    {
+      "id": 253,
+      "name": "Improve Digital BV",
+      "domains": []
+    },
+    {
+      "id": 254,
+      "name": "LiquidM Technology GmbH",
+      "domains": []
+    },
+    {
+      "id": 255,
+      "name": "Onnetwork Sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 256,
+      "name": "Bounce Exchange, Inc",
+      "domains": []
+    },
+    {
+      "id": 259,
+      "name": "ADYOULIKE SA",
+      "domains": []
+    },
+    {
+      "id": 261,
+      "name": "Signal Digital Inc.",
+      "domains": []
+    },
+    {
+      "id": 262,
+      "name": "Fyber ",
+      "domains": []
+    },
+    {
+      "id": 263,
+      "name": "Nativo, Inc.",
+      "domains": []
+    },
+    {
+      "id": 264,
+      "name": "Adobe Advertising Cloud",
+      "domains": []
+    },
+    {
+      "id": 265,
+      "name": "Instinctive, Inc.",
+      "domains": []
+    },
+    {
+      "id": 270,
+      "name": "Marfeel Solutions, SL",
+      "domains": []
+    },
+    {
+      "id": 272,
+      "name": "A.Mob",
+      "domains": []
+    },
+    {
+      "id": 273,
+      "name": "Bannerflow AB",
+      "domains": []
+    },
+    {
+      "id": 274,
+      "name": "Golden Bees",
+      "domains": []
+    },
+    {
+      "id": 275,
+      "name": "TabMo SAS",
+      "domains": []
+    },
+    {
+      "id": 277,
+      "name": "Codewise VL Sp. z o.o. Sp. k",
+      "domains": []
+    },
+    {
+      "id": 278,
+      "name": "Integral Ad Science, Inc.",
+      "domains": []
+    },
+    {
+      "id": 279,
+      "name": "Mirando GmbH &amp; Co KG",
+      "domains": []
+    },
+    {
+      "id": 280,
+      "name": "Spot.IM LTD",
+      "domains": []
+    },
+    {
+      "id": 281,
+      "name": "Wizaly",
+      "domains": []
+    },
+    {
+      "id": 282,
+      "name": "Welect GmbH",
+      "domains": []
+    },
+    {
+      "id": 284,
+      "name": "WEBORAMA",
+      "domains": []
+    },
+    {
+      "id": 285,
+      "name": "Comcast International France SAS",
+      "domains": []
+    },
+    {
+      "id": 289,
+      "name": "mobalo GmbH",
+      "domains": []
+    },
+    {
+      "id": 290,
+      "name": "Readpeak Oy",
+      "domains": []
+    },
+    {
+      "id": 293,
+      "name": "SpringServe, LLC",
+      "domains": []
+    },
+    {
+      "id": 294,
+      "name": "Jivox Corporation",
+      "domains": []
+    },
+    {
+      "id": 297,
+      "name": "Polar Mobile Group Inc.",
+      "domains": []
+    },
+    {
+      "id": 299,
+      "name": "AdClear GmbH",
+      "domains": []
+    },
+    {
+      "id": 301,
+      "name": "zeotap GmbH",
+      "domains": []
+    },
+    {
+      "id": 302,
+      "name": "Mobile Professionals BV",
+      "domains": []
+    },
+    {
+      "id": 303,
+      "name": "Orion Semantics",
+      "domains": []
+    },
+    {
+      "id": 304,
+      "name": "On Device Research Limited",
+      "domains": []
+    },
+    {
+      "id": 310,
+      "name": "Adevinta Spain S.L.U.",
+      "domains": []
+    },
+    {
+      "id": 311,
+      "name": "Mobfox US LLC",
+      "domains": []
+    },
+    {
+      "id": 312,
+      "name": "Exactag GmbH",
+      "domains": []
+    },
+    {
+      "id": 314,
+      "name": "Keymantics",
+      "domains": []
+    },
+    {
+      "id": 315,
+      "name": "Celtra, Inc.",
+      "domains": []
+    },
+    {
+      "id": 316,
+      "name": "Gamned",
+      "domains": []
+    },
+    {
+      "id": 317,
+      "name": "mainADV Srl",
+      "domains": []
+    },
+    {
+      "id": 318,
+      "name": "Accorp Sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 319,
+      "name": "Clipcentric, Inc.",
+      "domains": []
+    },
+    {
+      "id": 321,
+      "name": "Ziff Davis LLC",
+      "domains": []
+    },
+    {
+      "id": 323,
+      "name": "DAZN Media Services Limited",
+      "domains": []
+    },
+    {
+      "id": 325,
+      "name": "Knorex",
+      "domains": []
+    },
+    {
+      "id": 328,
+      "name": "Gemius SA",
+      "domains": []
+    },
+    {
+      "id": 329,
+      "name": "Browsi",
+      "domains": []
+    },
+    {
+      "id": 331,
+      "name": "ad6media",
+      "domains": []
+    },
+    {
+      "id": 333,
+      "name": "InMobi Pte Ltd",
+      "domains": []
+    },
+    {
+      "id": 335,
+      "name": "Beachfront Media LLC",
+      "domains": []
+    },
+    {
+      "id": 336,
+      "name": "Telecoming S.A.",
+      "domains": []
+    },
+    {
+      "id": 337,
+      "name": "SheMedia, LLC",
+      "domains": []
+    },
+    {
+      "id": 343,
+      "name": "DIGITEKA Technologies",
+      "domains": []
+    },
+    {
+      "id": 345,
+      "name": "The Kantar Group Limited",
+      "domains": []
+    },
+    {
+      "id": 347,
+      "name": "Ezoic Inc.",
+      "domains": []
+    },
+    {
+      "id": 350,
+      "name": "Free Stream Media Corp. dba Samba TV",
+      "domains": []
+    },
+    {
+      "id": 351,
+      "name": "Samba TV UK Limited",
+      "domains": []
+    },
+    {
+      "id": 354,
+      "name": "Apester Ltd",
+      "domains": []
+    },
+    {
+      "id": 358,
+      "name": "MGID Inc.",
+      "domains": []
+    },
+    {
+      "id": 359,
+      "name": "AerServ LLC",
+      "domains": []
+    },
+    {
+      "id": 360,
+      "name": "Permutive Technologies, Inc.",
+      "domains": []
+    },
+    {
+      "id": 361,
+      "name": "Permutive Limited",
+      "domains": []
+    },
+    {
+      "id": 365,
+      "name": "Forensiq LLC",
+      "domains": []
+    },
+    {
+      "id": 368,
+      "name": "VECTAURY",
+      "domains": []
+    },
+    {
+      "id": 371,
+      "name": "Seeding Alliance GmbH",
+      "domains": []
+    },
+    {
+      "id": 373,
+      "name": "Nielsen Marketing Cloud",
+      "domains": []
+    },
+    {
+      "id": 374,
+      "name": "Bmind a Sales Maker Company, S.L.",
+      "domains": []
+    },
+    {
+      "id": 375,
+      "name": "Affle International",
+      "domains": []
+    },
+    {
+      "id": 377,
+      "name": "AddApptr GmbH",
+      "domains": []
+    },
+    {
+      "id": 378,
+      "name": "communicationAds GmbH &amp; Co. KG",
+      "domains": []
+    },
+    {
+      "id": 380,
+      "name": "Vidoomy Media SL",
+      "domains": []
+    },
+    {
+      "id": 381,
+      "name": "Solocal",
+      "domains": []
+    },
+    {
+      "id": 382,
+      "name": "The Reach Group GmbH",
+      "domains": []
+    },
+    {
+      "id": 384,
+      "name": "Pixalate, Inc.",
+      "domains": []
+    },
+    {
+      "id": 385,
+      "name": "Oracle Data Cloud",
+      "domains": []
+    },
+    {
+      "id": 387,
+      "name": "Triapodi Ltd.",
+      "domains": []
+    },
+    {
+      "id": 388,
+      "name": "numberly",
+      "domains": []
+    },
+    {
+      "id": 394,
+      "name": "AudienceProject Aps",
+      "domains": []
+    },
+    {
+      "id": 402,
+      "name": "Effiliation",
+      "domains": []
+    },
+    {
+      "id": 408,
+      "name": "Fidelity Media",
+      "domains": []
+    },
+    {
+      "id": 409,
+      "name": "Arrivalist Co.",
+      "domains": []
+    },
+    {
+      "id": 410,
+      "name": "Adtelligent Inc.",
+      "domains": []
+    },
+    {
+      "id": 412,
+      "name": "Cxense ASA",
+      "domains": []
+    },
+    {
+      "id": 413,
+      "name": "Eulerian Technologies",
+      "domains": []
+    },
+    {
+      "id": 415,
+      "name": "Seenthis AB",
+      "domains": []
+    },
+    {
+      "id": 416,
+      "name": "Commanders Act",
+      "domains": []
+    },
+    {
+      "id": 418,
+      "name": "PROXISTORE",
+      "domains": []
+    },
+    {
+      "id": 422,
+      "name": "Brand Metrics Sweden AB",
+      "domains": []
+    },
+    {
+      "id": 423,
+      "name": "travel audience GmbH",
+      "domains": []
+    },
+    {
+      "id": 424,
+      "name": "KUPONA GmbH",
+      "domains": []
+    },
+    {
+      "id": 427,
+      "name": "Proxi.cloud sp. z.o.o",
+      "domains": []
+    },
+    {
+      "id": 428,
+      "name": "Internet BillBoard a.s.",
+      "domains": []
+    },
+    {
+      "id": 429,
+      "name": "Signals",
+      "domains": []
+    },
+    {
+      "id": 431,
+      "name": "White Ops, Inc.",
+      "domains": []
+    },
+    {
+      "id": 434,
+      "name": "DynAdmic",
+      "domains": []
+    },
+    {
+      "id": 435,
+      "name": "SINGLESPOT SAS ",
+      "domains": []
+    },
+    {
+      "id": 436,
+      "name": "INVIBES GROUP",
+      "domains": []
+    },
+    {
+      "id": 438,
+      "name": "INVIDI technologies AB",
+      "domains": []
+    },
+    {
+      "id": 439,
+      "name": "Bit Q Holdings Limited",
+      "domains": []
+    },
+    {
+      "id": 440,
+      "name": "DEFINE MEDIA GMBH",
+      "domains": []
+    },
+    {
+      "id": 444,
+      "name": "Playbuzz Ltd (aka EX.CO)",
+      "domains": []
+    },
+    {
+      "id": 447,
+      "name": "Adludio Ltd",
+      "domains": []
+    },
+    {
+      "id": 448,
+      "name": "Targetspot Belgium SPRL",
+      "domains": []
+    },
+    {
+      "id": 450,
+      "name": "Neodata Group srl",
+      "domains": []
+    },
+    {
+      "id": 455,
+      "name": "GDMServices, Inc. d/b/a FiksuDSP",
+      "domains": []
+    },
+    {
+      "id": 458,
+      "name": "AdColony, Inc.",
+      "domains": []
+    },
+    {
+      "id": 459,
+      "name": "uppr GmbH",
+      "domains": []
+    },
+    {
+      "id": 462,
+      "name": "Bidstack Limited",
+      "domains": []
+    },
+    {
+      "id": 466,
+      "name": "TACTIC™ Real-Time Marketing AS",
+      "domains": []
+    },
+    {
+      "id": 467,
+      "name": "Haensel AMS GmbH",
+      "domains": []
+    },
+    {
+      "id": 468,
+      "name": "NeuStar, Inc.",
+      "domains": []
+    },
+    {
+      "id": 475,
+      "name": "TAPTAP Digital SL",
+      "domains": []
+    },
+    {
+      "id": 479,
+      "name": "INFINIA MOBILE S.L.",
+      "domains": []
+    },
+    {
+      "id": 482,
+      "name": "UberMedia, Inc.",
+      "domains": []
+    },
+    {
+      "id": 484,
+      "name": "STRIATUM SAS",
+      "domains": []
+    },
+    {
+      "id": 486,
+      "name": "Madington",
+      "domains": []
+    },
+    {
+      "id": 488,
+      "name": "Opinary GmbH",
+      "domains": []
+    },
+    {
+      "id": 490,
+      "name": "PLAYGROUND XYZ EMEA LTD",
+      "domains": []
+    },
+    {
+      "id": 491,
+      "name": "Triboo Data Analytics",
+      "domains": []
+    },
+    {
+      "id": 493,
+      "name": "Carbon (AI) Limited",
+      "domains": []
+    },
+    {
+      "id": 495,
+      "name": "Arcspire Limited",
+      "domains": []
+    },
+    {
+      "id": 498,
+      "name": "Mediakeys Platform",
+      "domains": []
+    },
+    {
+      "id": 501,
+      "name": "Alliance Gravity Data Media",
+      "domains": []
+    },
+    {
+      "id": 502,
+      "name": "NEXD",
+      "domains": []
+    },
+    {
+      "id": 505,
+      "name": "Shopalyst Inc",
+      "domains": []
+    },
+    {
+      "id": 507,
+      "name": "AdsWizz Inc.",
+      "domains": []
+    },
+    {
+      "id": 508,
+      "name": "Lucid Holdings, LLC",
+      "domains": []
+    },
+    {
+      "id": 509,
+      "name": "ATG Ad Tech Group GmbH",
+      "domains": []
+    },
+    {
+      "id": 511,
+      "name": "Admixer EU GmbH",
+      "domains": []
+    },
+    {
+      "id": 512,
+      "name": "PubNative GmbH",
+      "domains": []
+    },
+    {
+      "id": 516,
+      "name": "Pexi B.V.",
+      "domains": []
+    },
+    {
+      "id": 517,
+      "name": "SunMedia ",
+      "domains": []
+    },
+    {
+      "id": 519,
+      "name": "Newsroom AI Ltd",
+      "domains": []
+    },
+    {
+      "id": 520,
+      "name": "ChannelSight ",
+      "domains": []
+    },
+    {
+      "id": 521,
+      "name": "netzeffekt GmbH",
+      "domains": []
+    },
+    {
+      "id": 524,
+      "name": "The Ozone Project Limited",
+      "domains": []
+    },
+    {
+      "id": 527,
+      "name": "Jampp LTD",
+      "domains": []
+    },
+    {
+      "id": 528,
+      "name": "Kayzen",
+      "domains": []
+    },
+    {
+      "id": 530,
+      "name": "Near Pte Ltd",
+      "domains": []
+    },
+    {
+      "id": 531,
+      "name": "Smartclip Hispania SL",
+      "domains": []
+    },
+    {
+      "id": 535,
+      "name": "INNITY",
+      "domains": []
+    },
+    {
+      "id": 536,
+      "name": "GlobalWebIndex",
+      "domains": []
+    },
+    {
+      "id": 539,
+      "name": "AdDefend GmbH",
+      "domains": []
+    },
+    {
+      "id": 541,
+      "name": "DeepIntent, Inc.",
+      "domains": []
+    },
+    {
+      "id": 543,
+      "name": "PaperG, Inc. dba Thunder Industries",
+      "domains": []
+    },
+    {
+      "id": 544,
+      "name": "Kochava Inc.",
+      "domains": []
+    },
+    {
+      "id": 545,
+      "name": "Reignn Platform Ltd",
+      "domains": []
+    },
+    {
+      "id": 546,
+      "name": "Smart Traffik",
+      "domains": []
+    },
+    {
+      "id": 547,
+      "name": "Reach Media GmbH",
+      "domains": []
+    },
+    {
+      "id": 549,
+      "name": "Bandsintown Amplified LLC",
+      "domains": []
+    },
+    {
+      "id": 550,
+      "name": "Happydemics",
+      "domains": []
+    },
+    {
+      "id": 553,
+      "name": "Adhese",
+      "domains": []
+    },
+    {
+      "id": 554,
+      "name": "RMSi Radio Marketing Service interactive GmbH",
+      "domains": []
+    },
+    {
+      "id": 556,
+      "name": "adhood.com",
+      "domains": []
+    },
+    {
+      "id": 559,
+      "name": "Otto (GmbH &amp; Co KG)",
+      "domains": []
+    },
+    {
+      "id": 561,
+      "name": "AuDigent",
+      "domains": []
+    },
+    {
+      "id": 565,
+      "name": "Adobe Audience Manager, Adobe Experience Platform",
+      "domains": []
+    },
+    {
+      "id": 568,
+      "name": "Jointag S.r.l.",
+      "domains": []
+    },
+    {
+      "id": 569,
+      "name": "Kairos Fire",
+      "domains": []
+    },
+    {
+      "id": 570,
+      "name": "Czech Publisher Exchange z.s.p.o.",
+      "domains": []
+    },
+    {
+      "id": 571,
+      "name": "ViewPay",
+      "domains": []
+    },
+    {
+      "id": 573,
+      "name": "Dailymotion SA",
+      "domains": []
+    },
+    {
+      "id": 574,
+      "name": "Realeyes OU",
+      "domains": []
+    },
+    {
+      "id": 577,
+      "name": "Neustar on behalf of The Procter & Gamble Company",
+      "domains": []
+    },
+    {
+      "id": 579,
+      "name": "Ve Global UK Limited",
+      "domains": []
+    },
+    {
+      "id": 580,
+      "name": "Goldbach Group AG",
+      "domains": []
+    },
+    {
+      "id": 584,
+      "name": "Dynamic 1001 GmbH",
+      "domains": []
+    },
+    {
+      "id": 587,
+      "name": "Localsensor B.V.",
+      "domains": []
+    },
+    {
+      "id": 590,
+      "name": "Sourcepoint Technologies, Inc.",
+      "domains": []
+    },
+    {
+      "id": 591,
+      "name": "Consumable, Inc.",
+      "domains": []
+    },
+    {
+      "id": 593,
+      "name": "Programatica de publicidad S.L.",
+      "domains": []
+    },
+    {
+      "id": 596,
+      "name": "InsurAds Technologies SA.",
+      "domains": []
+    },
+    {
+      "id": 598,
+      "name": "audio content &amp; control GmbH",
+      "domains": []
+    },
+    {
+      "id": 599,
+      "name": "Maximus Live LLC",
+      "domains": []
+    },
+    {
+      "id": 601,
+      "name": "WebAds B.V",
+      "domains": []
+    },
+    {
+      "id": 602,
+      "name": "Online Solution Int Limited",
+      "domains": []
+    },
+    {
+      "id": 606,
+      "name": "Impactify ",
+      "domains": []
+    },
+    {
+      "id": 607,
+      "name": "ucfunnel Co., Ltd.",
+      "domains": []
+    },
+    {
+      "id": 609,
+      "name": "Predicio",
+      "domains": []
+    },
+    {
+      "id": 610,
+      "name": "Azerion Holding B.V.",
+      "domains": []
+    },
+    {
+      "id": 612,
+      "name": "Adnami Aps",
+      "domains": []
+    },
+    {
+      "id": 613,
+      "name": "Adserve.zone / Artworx AS",
+      "domains": []
+    },
+    {
+      "id": 614,
+      "name": "Market Resource Partners LLC",
+      "domains": []
+    },
+    {
+      "id": 615,
+      "name": "Adsolutions BV",
+      "domains": []
+    },
+    {
+      "id": 617,
+      "name": "Onfocus (Adagio)",
+      "domains": []
+    },
+    {
+      "id": 618,
+      "name": "BEINTOO SPA",
+      "domains": []
+    },
+    {
+      "id": 620,
+      "name": "Blue",
+      "domains": []
+    },
+    {
+      "id": 621,
+      "name": "Seznam.cz, a.s.",
+      "domains": []
+    },
+    {
+      "id": 624,
+      "name": "Norstat AS",
+      "domains": []
+    },
+    {
+      "id": 625,
+      "name": "BILENDI SA",
+      "domains": []
+    },
+    {
+      "id": 626,
+      "name": "Hivestack Inc.",
+      "domains": []
+    },
+    {
+      "id": 628,
+      "name": ": Tappx",
+      "domains": []
+    },
+    {
+      "id": 630,
+      "name": "Contact Impact GmbH",
+      "domains": []
+    },
+    {
+      "id": 631,
+      "name": "Relay42 Netherlands B.V.",
+      "domains": []
+    },
+    {
+      "id": 638,
+      "name": "Passendo Aps",
+      "domains": []
+    },
+    {
+      "id": 639,
+      "name": "Smile Wanted Group",
+      "domains": []
+    },
+    {
+      "id": 644,
+      "name": "Gamoshi LTD",
+      "domains": []
+    },
+    {
+      "id": 645,
+      "name": "Noster Finance S.L.",
+      "domains": []
+    },
+    {
+      "id": 646,
+      "name": "Notify",
+      "domains": []
+    },
+    {
+      "id": 647,
+      "name": "Axel Springer Teaser Ad GmbH",
+      "domains": []
+    },
+    {
+      "id": 648,
+      "name": "TrueData Solutions, Inc.",
+      "domains": []
+    },
+    {
+      "id": 649,
+      "name": "adality GmbH",
+      "domains": []
+    },
+    {
+      "id": 650,
+      "name": "Telefonica Investigación y Desarrollo S.A.U",
+      "domains": []
+    },
+    {
+      "id": 652,
+      "name": "Skaze",
+      "domains": []
+    },
+    {
+      "id": 653,
+      "name": "Smartme Analytics",
+      "domains": []
+    },
+    {
+      "id": 655,
+      "name": "Sportradar AG",
+      "domains": []
+    },
+    {
+      "id": 656,
+      "name": "Think Clever Media",
+      "domains": []
+    },
+    {
+      "id": 657,
+      "name": "GP One GmbH",
+      "domains": []
+    },
+    {
+      "id": 658,
+      "name": "BLIINK SAS",
+      "domains": []
+    },
+    {
+      "id": 659,
+      "name": "Research and Analysis of Media in Sweden AB",
+      "domains": []
+    },
+    {
+      "id": 662,
+      "name": "SoundCast",
+      "domains": []
+    },
+    {
+      "id": 663,
+      "name": "Mobsuccess",
+      "domains": []
+    },
+    {
+      "id": 664,
+      "name": "adMarketplace, Inc.",
+      "domains": []
+    },
+    {
+      "id": 665,
+      "name": "Digital East GmbH",
+      "domains": []
+    },
+    {
+      "id": 666,
+      "name": "BeOp",
+      "domains": []
+    },
+    {
+      "id": 667,
+      "name": "Liftoff Mobile, Inc.",
+      "domains": []
+    },
+    {
+      "id": 668,
+      "name": "WhatRocks Inc. ",
+      "domains": []
+    },
+    {
+      "id": 672,
+      "name": "Cedato Technologies Ltd",
+      "domains": []
+    },
+    {
+      "id": 674,
+      "name": "Duration Media, LLC.",
+      "domains": []
+    },
+    {
+      "id": 675,
+      "name": "Instreamatic inc.",
+      "domains": []
+    },
+    {
+      "id": 676,
+      "name": "BusinessClick",
+      "domains": []
+    },
+    {
+      "id": 678,
+      "name": "Axonix LTD",
+      "domains": []
+    },
+    {
+      "id": 681,
+      "name": "MyTraffic",
+      "domains": []
+    },
+    {
+      "id": 682,
+      "name": "Radio Net Media Limited",
+      "domains": []
+    },
+    {
+      "id": 683,
+      "name": "Cookie Market LTD",
+      "domains": []
+    },
+    {
+      "id": 684,
+      "name": "Blue Billywig BV",
+      "domains": []
+    },
+    {
+      "id": 685,
+      "name": "Arkeero",
+      "domains": []
+    },
+    {
+      "id": 686,
+      "name": "The MediaGrid Inc.",
+      "domains": []
+    },
+    {
+      "id": 687,
+      "name": "MISSENA",
+      "domains": []
+    },
+    {
+      "id": 688,
+      "name": "Effinity",
+      "domains": []
+    },
+    {
+      "id": 690,
+      "name": "Go.pl sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 691,
+      "name": "Lifesight Pte. Ltd.",
+      "domains": []
+    },
+    {
+      "id": 694,
+      "name": "Snapupp Technologies SL",
+      "domains": []
+    },
+    {
+      "id": 697,
+      "name": "ADWAYS SAS",
+      "domains": []
+    },
+    {
+      "id": 699,
+      "name": "HyperTV Inc.",
+      "domains": []
+    },
+    {
+      "id": 702,
+      "name": "Kwanko",
+      "domains": []
+    },
+    {
+      "id": 703,
+      "name": "MindTake Research GmbH",
+      "domains": []
+    },
+    {
+      "id": 706,
+      "name": "VRTCAL Markets Inc",
+      "domains": []
+    },
+    {
+      "id": 707,
+      "name": "Dentsu Aegis Network Italia SpA",
+      "domains": []
+    },
+    {
+      "id": 708,
+      "name": "Dugout Limited ",
+      "domains": []
+    },
+    {
+      "id": 709,
+      "name": "NC Audience Exchange, LLC (NewsIQ)",
+      "domains": []
+    },
+    {
+      "id": 711,
+      "name": "SITU8ED SA",
+      "domains": []
+    },
+    {
+      "id": 712,
+      "name": "Inspired Mobile Limited",
+      "domains": []
+    },
+    {
+      "id": 713,
+      "name": "Dataseat Ltd",
+      "domains": []
+    },
+    {
+      "id": 714,
+      "name": "Survata Inc.",
+      "domains": []
+    },
+    {
+      "id": 716,
+      "name": "OnAudience Ltd",
+      "domains": []
+    },
+    {
+      "id": 719,
+      "name": "Online Advertising Network Sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 720,
+      "name": "AAX LLC",
+      "domains": []
+    },
+    {
+      "id": 721,
+      "name": "Beaconspark Ltd",
+      "domains": []
+    },
+    {
+      "id": 722,
+      "name": "agof - daily campaign facts",
+      "domains": []
+    },
+    {
+      "id": 723,
+      "name": "Adzymic Pte Ltd",
+      "domains": []
+    },
+    {
+      "id": 724,
+      "name": "Between Exchange",
+      "domains": []
+    },
+    {
+      "id": 725,
+      "name": "Pubfinity LLC",
+      "domains": []
+    },
+    {
+      "id": 727,
+      "name": "Pinpoll GmbH (Private Limited)",
+      "domains": []
+    },
+    {
+      "id": 728,
+      "name": "Appier PTE Ltd",
+      "domains": []
+    },
+    {
+      "id": 729,
+      "name": "Cavai AS & UK ",
+      "domains": []
+    },
+    {
+      "id": 730,
+      "name": "INFOnline GmbH",
+      "domains": []
+    },
+    {
+      "id": 731,
+      "name": "GeistM Technologies LTD",
+      "domains": []
+    },
+    {
+      "id": 732,
+      "name": "Performax.cz, s.r.o.",
+      "domains": []
+    },
+    {
+      "id": 733,
+      "name": "Anzu Virtual Reality LTD",
+      "domains": []
+    },
+    {
+      "id": 734,
+      "name": "Cint AB",
+      "domains": []
+    },
+    {
+      "id": 735,
+      "name": "Deutsche Post AG",
+      "domains": []
+    },
+    {
+      "id": 736,
+      "name": "BidMachine Inc.",
+      "domains": []
+    },
+    {
+      "id": 737,
+      "name": "Monet Engine Inc",
+      "domains": []
+    },
+    {
+      "id": 738,
+      "name": "adbility media GmbH",
+      "domains": []
+    },
+    {
+      "id": 739,
+      "name": "Blingby LLC",
+      "domains": []
+    },
+    {
+      "id": 740,
+      "name": "6Sense Insights, Inc.",
+      "domains": []
+    },
+    {
+      "id": 741,
+      "name": "Brand Advance Limited",
+      "domains": []
+    },
+    {
+      "id": 742,
+      "name": "Audiencerate LTD",
+      "domains": []
+    },
+    {
+      "id": 743,
+      "name": "MOVIads Sp. z o.o. Sp. k.",
+      "domains": []
+    },
+    {
+      "id": 744,
+      "name": "Vidazoo Ltd",
+      "domains": []
+    },
+    {
+      "id": 745,
+      "name": "Justtag Sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 746,
+      "name": "Adxperience SAS",
+      "domains": []
+    },
+    {
+      "id": 747,
+      "name": "Kairion GmbH",
+      "domains": []
+    },
+    {
+      "id": 748,
+      "name": "AUDIOMOB LTD",
+      "domains": []
+    },
+    {
+      "id": 749,
+      "name": "Good-Loop Ltd",
+      "domains": []
+    },
+    {
+      "id": 750,
+      "name": "THE NEWCO S.R.L.",
+      "domains": []
+    },
+    {
+      "id": 751,
+      "name": "Kiosked Ltd",
+      "domains": []
+    },
+    {
+      "id": 753,
+      "name": "ScaleMonk Inc.",
+      "domains": []
+    },
+    {
+      "id": 754,
+      "name": "DistroScale, Inc.",
+      "domains": []
+    },
+    {
+      "id": 755,
+      "name": "Google Advertising Products",
+      "domains": []
+    },
+    {
+      "id": 756,
+      "name": "Fandom, Inc.",
+      "domains": []
+    },
+    {
+      "id": 757,
+      "name": "UAB Meazy",
+      "domains": []
+    },
+    {
+      "id": 758,
+      "name": "GfK Netherlands B.V.",
+      "domains": []
+    },
+    {
+      "id": 759,
+      "name": "RevJet",
+      "domains": []
+    },
+    {
+      "id": 760,
+      "name": "VEXPRO TECHNOLOGIES LTD",
+      "domains": []
+    },
+    {
+      "id": 761,
+      "name": "Digiseg ApS",
+      "domains": []
+    },
+    {
+      "id": 762,
+      "name": "Protected Media LTD",
+      "domains": []
+    },
+    {
+      "id": 764,
+      "name": "Lucidity",
+      "domains": []
+    },
+    {
+      "id": 765,
+      "name": "Grabit Interactive Media Inc dba KERV Interctive",
+      "domains": []
+    },
+    {
+      "id": 766,
+      "name": "ADCELL | Firstlead GmbH",
+      "domains": []
+    },
+    {
+      "id": 767,
+      "name": "Clinch Labs LTD",
+      "domains": []
+    },
+    {
+      "id": 768,
+      "name": "Global Media & Entertainment Limited",
+      "domains": []
+    },
+    {
+      "id": 769,
+      "name": "MEDIAMETRIE",
+      "domains": []
+    },
+    {
+      "id": 770,
+      "name": "MARKETPERF CORP",
+      "domains": []
+    },
+    {
+      "id": 771,
+      "name": "bam! interactive marketing GmbH ",
+      "domains": []
+    },
+    {
+      "id": 772,
+      "name": "Oracle Data Cloud - Moat",
+      "domains": []
+    },
+    {
+      "id": 773,
+      "name": "360e-com Sp. z o.o.",
+      "domains": []
+    },
+    {
+      "id": 774,
+      "name": "Wagawin GmbH",
+      "domains": []
+    },
+    {
+      "id": 775,
+      "name": "SelectMedia International LTD",
+      "domains": []
+    },
+    {
+      "id": 776,
+      "name": "Mars Media Group",
+      "domains": []
+    },
+    {
+      "id": 777,
+      "name": "One Planet Only",
+      "domains": []
+    },
+    {
+      "id": 778,
+      "name": "Discover-Tech ltd",
+      "domains": []
+    },
+    {
+      "id": 779,
+      "name": "Adtarget Medya A.S.",
+      "domains": []
+    },
+    {
+      "id": 780,
+      "name": "Aniview LTD",
+      "domains": []
+    },
+    {
+      "id": 781,
+      "name": "FeedAd GmbH",
+      "domains": []
+    },
+    {
+      "id": 782,
+      "name": "AirGrid LTD",
+      "domains": []
+    },
+    {
+      "id": 783,
+      "name": "Audienzz AG",
+      "domains": []
+    },
+    {
+      "id": 784,
+      "name": "Nubo LTD",
+      "domains": []
+    },
+    {
+      "id": 785,
+      "name": "agof - daily digital facts",
+      "domains": []
+    },
+    {
+      "id": 786,
+      "name": "TargetVideo GmbH",
+      "domains": []
+    },
+    {
+      "id": 787,
+      "name": "Resolution Media München GmbH",
+      "domains": []
+    },
+    {
+      "id": 788,
+      "name": "Ad Alliance GmbH",
+      "domains": []
+    },
+    {
+      "id": 789,
+      "name": "IP Deutschland GmbH",
+      "domains": []
+    },
+    {
+      "id": 790,
+      "name": "AdGear Technologies, Inc.",
+      "domains": []
+    },
+    {
+      "id": 791,
+      "name": "Media Square",
+      "domains": []
+    },
+    {
+      "id": 792,
+      "name": "BritePool Inc",
+      "domains": []
+    },
+    {
+      "id": 793,
+      "name": "Amazon Advertising",
+      "domains": []
+    },
+    {
+      "id": 794,
+      "name": "Kubient Inc. ",
+      "domains": []
+    },
+    {
+      "id": 795,
+      "name": "Factor Eleven GmbH",
+      "domains": []
+    },
+    {
+      "id": 796,
+      "name": "EASY Marketing GmbH",
+      "domains": []
+    },
+    {
+      "id": 797,
+      "name": "Artefact Deutschland GmbH",
+      "domains": []
+    },
+    {
+      "id": 798,
+      "name": "Adverticum cPlc.",
+      "domains": []
+    },
+    {
+      "id": 799,
+      "name": "Adpone SL",
+      "domains": []
+    },
+    {
+      "id": 800,
+      "name": "Reppublika- The Research Toolbox GmbH",
+      "domains": []
+    },
+    {
+      "id": 801,
+      "name": "Bannernow, Inc.",
+      "domains": []
+    },
+    {
+      "id": 802,
+      "name": "NOW GmbH",
+      "domains": []
+    },
+    {
+      "id": 803,
+      "name": "Click Tech Limited",
+      "domains": []
+    },
+    {
+      "id": 804,
+      "name": "LinkedIn Ireland Unlimited Company",
+      "domains": []
+    },
+    {
+      "id": 805,
+      "name": "LEESTEN INC",
+      "domains": []
+    },
+    {
+      "id": 807,
+      "name": "Moloco, Inc.",
+      "domains": []
+    },
+    {
+      "id": 808,
+      "name": "Pure Local Media GmbH",
+      "domains": []
+    },
+    {
+      "id": 809,
+      "name": "adnanny.com SLU",
+      "domains": []
+    },
+    {
+      "id": 810,
+      "name": "lead alliance GmbH",
+      "domains": []
+    },
+    {
+      "id": 811,
+      "name": "iPROM",
+      "domains": []
+    },
+    {
+      "id": 813,
+      "name": "Adjust GmbH",
+      "domains": []
+    },
+    {
+      "id": 814,
+      "name": "UAB Aktyvus sektorius - Eskimi",
+      "domains": []
+    },
+    {
+      "id": 815,
+      "name": "Blockthrough, Inc.",
+      "domains": []
+    },
+    {
+      "id": 816,
+      "name": "NoBid, Inc.",
+      "domains": []
+    },
+    {
+      "id": 817,
+      "name": "Miaozhen Information Technology Co. Ltd",
+      "domains": []
+    },
+    {
+      "id": 819,
+      "name": "retailAds GmbH &amp; Co. KG",
+      "domains": []
+    },
+    {
+      "id": 820,
+      "name": "Kameleoon SAS",
+      "domains": []
+    },
+    {
+      "id": 821,
+      "name": "vitrado GmbH",
+      "domains": []
+    }
+  ]
 }
