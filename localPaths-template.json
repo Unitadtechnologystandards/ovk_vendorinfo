@@ -1,0 +1,8 @@
+{
+    "comment": "This is a local file which only sits on your pc. Rename it to 'localPaths.json' to make it work.",
+    "important": "Never change localPaths-template.json file, ALWAYS use your own version of localPaths.json",
+    "awsCredentialPath": "",
+    "iabVendorListUrl": "https://vendorlist.consensu.org/v2/vendor-list.json",
+    "ovkVendorListPath": "ovk_vendorinfo.json",
+    "iabVendorListPath": "resources/iabVendorList.json"
+}
