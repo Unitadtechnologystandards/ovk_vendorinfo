@@ -1,26 +1,81 @@
 module.exports = function (grunt) {
-
-    const options = {
-        iabVendorListUrl: "https://vendorlist.consensu.org/v2/vendor-list.json",
-        iabVendorListPath: "resources/iabVendorList.json",
-        ovkVendorListPath: "ovk_vendorinfo.json"
+    const util = {
+        /**
+         * Will handle errors when using grunt.file.readJson, since a nonJson or missing file will result in an exception. If file can not be read, return an empty object.
+         * @param path {string}
+         * @returns {{}}
+         */
+        readJson: function (path) {
+            let output = {};
+            if(grunt.file.exists(path)){
+                try {
+                    output = grunt.file.readJSON(path);
+                } catch (error) {}
+            }
+            return output;
+        },
+        /**
+         * Will crawl the localPaths.json and try to find the localPathEntry, provided as argument
+         * @param localPathEntry {string}
+         */
+        getDirectory: function(localPathEntry) {
+            if(localPaths.hasOwnProperty(localPathEntry)){
+                return localPaths[localPathEntry]
+            }else{
+                console.error('getDirectory could not find your provided path to %o', localPathEntry);
+                return ""
+            }
+        },
+        /**
+         * Will try to retrieve AWS Credentials from some other directory
+         * NEVER EVER, FOR THE LOVE OF ALL THAT IS HOLY, COMMIT CREDENTIAL FILE TO THIS REPOSITORY.
+         * OTHERWISE FAIRIES WILL DIE, CUTE PUPPIES SPONTANEOUSLY CATCH FIRE AND ITS ALL ON YOU
+         */
+        retrieveAwsCredentials: function(){
+            return util.readJson(util.getDirectory('awsCredentialPath'))
+        }
     };
 
 
     // Project configuration.
     //noinspection JSUnusedGlobalSymbols,JSUnresolvedFunction,JSUnresolvedVariable
+    const localPaths = util.readJson('localPaths.json');
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        awsCredentials: util.retrieveAwsCredentials(),
         downloadfile: {
             options: {
                 dest: 'resources/',
-                overwriteEverytime: false
+                overwriteEverytime: true
             },
             files: {
-                'iabVendorList.json': options.iabVendorListUrl,
+                'iabVendorList.json': util.getDirectory('iabVendorListUrl'),
+            }
+        },
+        s3: {
+            options: {
+                accessKeyId: '<%= awsCredentials.accessKeyId %>',
+                secretAccessKey: '<%= awsCredentials.secretAccessKey %>',
+                dryRun: false,
+                cache: false
+            },
+            uploadVendorInfo: {
+                src: util.getDirectory('ovkVendorListPath'),
+                dest: util.getDirectory('ovkVendorListCdnUrl'),
+                options: {
+                    bucket: util.getDirectory('awsBucketPath'),
+                    headers: {
+                        CacheControl: 'max-age=900',
+                        ContentEncoding: 'gzip'
+                    },
+                    region: 'eu-central-1',
+                    sslEnabled: true,
+                    maxRetries: 3,
+                    access: 'public-read',
+                    gzip: true
+                }
             }
         }
-
     });
 
     /**
@@ -30,21 +85,25 @@ module.exports = function (grunt) {
      *
      *
      * todo - have a human readable version of the ovk list
-     * todo - compare human readable version with minified ovk list, if changes are found, merge them and update list
+     * is this really necessary? Most JSON View tools automatically convert JSON to some human readable form...
+     *
      *
      */
     function populateOvkFile() {
-        let ovkVendorInfo = grunt.file.readJSON(options.ovkVendorListPath),
+        let vendorListPath = util.getDirectory('ovkVendorListPath'),
+            ovkVendorInfo = util.readJson(vendorListPath),
             newVendors = parseIabFileForNewVendors(parseOvkFileForVendorIds());
 
-        console.log(ovkVendorInfo);
         if(newVendors.length > 0) {
+            console.log('%o new vendors found. Updating vendorinfo.json', newVendors.length);
             ovkVendorInfo["vendorListVersion"] = ovkVendorInfo["vendorListVersion"] +1;
-            ovkVendorInfo["lastUpdated"] = "2020-08-20T11:00:08Z";
+            ovkVendorInfo["lastUpdated"] = new Date();
             ovkVendorInfo["vendors"] = ovkVendorInfo["vendors"].concat(newVendors);
-            grunt.file.write(options.ovkVendorListPath, JSON.stringify(ovkVendorInfo).toString());
+            grunt.file.write(vendorListPath, JSON.stringify(ovkVendorInfo).toString());
+
+        }else{
+            console.log("No new vendors, all fine");
         }
-        console.log("No new vendors, all fine");
     }
 
     /**
@@ -52,9 +111,9 @@ module.exports = function (grunt) {
      * @returns {[]} - array of all vendor ids present on OVK list
      */
     function parseOvkFileForVendorIds () {
-        let vendorinfo = grunt.file.readJSON(options.ovkVendorListPath),
+        let vendorInfo = util.readJson(util.getDirectory('ovkVendorListPath')),
             vendorIds = [];
-        vendorinfo["vendors"].forEach(function(currentVendorEntry){
+        vendorInfo["vendors"].forEach(function(currentVendorEntry){
             if(currentVendorEntry.hasOwnProperty("id")){
                 vendorIds.push(currentVendorEntry["id"]);
             }
@@ -65,12 +124,12 @@ module.exports = function (grunt) {
     /**
      * takes the list of vendor ids from OVK list and iterate through a freshly downloaded version of the iab list.
      * If a vendor id is found, that is not present on the ovk list, build a new entry for OVK and return it
-     * @param ovkVendorIds {Array.Number}
+     * @param ovkVendorIds {Array<Number>}
      * @returns {[]}
      */
     function parseIabFileForNewVendors (ovkVendorIds) {
 
-        let iabInfo = grunt.file.readJSON(options.iabVendorListPath),
+        let iabInfo = util.readJson(util.getDirectory('iabVendorListPath')),
             newVendorEntry = {},
             newVendors = [];
         for (let vendorEntry in iabInfo["vendors"]){
@@ -92,11 +151,18 @@ module.exports = function (grunt) {
     }
 
 
-    grunt.registerTask('Start IabMatching', 'Tries to parse the IAB List for current vendor information', function () {
+    grunt.registerTask('Match IAB List', 'Tries to parse the IAB List for current vendor information', function () {
         grunt.loadNpmTasks('grunt-downloadfile');
         grunt.registerTask('populateOvkList', 'Will try to parse the IAB Vendor list and add all newly found vendors to the OVK list', populateOvkFile);
         grunt.task.run(['downloadfile','populateOvkList']);
     });
 
-
+    if(typeof grunt.config.get('awsCredentials') === 'object' && Object.keys(grunt.config.get('awsCredentials')).length > 0){
+        //only show if all perquisites for CDN upload are met
+        grunt.registerTask('Upload to CDN', 'Will take the vendorinfo.json file and upload it to a CDN', function () {
+            grunt.loadNpmTasks('grunt-aws');
+            grunt.registerTask('populateOvkList', 'Will try to parse the IAB Vendor list and add all newly found vendors to the OVK list', populateOvkFile);
+            grunt.task.run(['s3:uploadVendorInfo']);
+        });
+    }
 };

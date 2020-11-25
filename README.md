@@ -1,7 +1,9 @@
 # ovk_vendorinfo
 Information about IAB TCF2.0 tech vendors, including used domains of the vendor and which tag/script placeholders are available to pass TCF2.0 consent data.
 
-You can either download the list directly from gitHub (you will need a validate account to do so) or by opening the URL -------
+You can either download the list directly from gitHub (you will need a validated account to do so) or by opening the URL https://cdn.stroeerdigitalgroup.de/metatag/ovk/vendorinfo.json
+
+(Akamai CDN currently provided by Ströer Digital, until we find a suitable OVK CDN)
 
 Please download and cache the list on your servers, to minimize traffic & costs. 
 
