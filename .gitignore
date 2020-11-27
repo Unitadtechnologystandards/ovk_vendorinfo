@@ -1,2 +1,5 @@
 resources/iabVendorList.json
+resources/domainImport
+node_modules
 localPaths.json
+.idea

@@ -6,6 +6,7 @@
     "grunt": "^1.0.0",
     "grunt-aws": "^0.7.1",
     "grunt-cli": "^1.3.2",
+    "grunt-csv-json": "^0.1.0",
     "grunt-downloadfile": "^2.1.1"
   },
   "scripts": {
