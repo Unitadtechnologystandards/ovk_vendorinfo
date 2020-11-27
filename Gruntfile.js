@@ -407,7 +407,7 @@ module.exports = function (grunt) {
         //only show if all perquisites for CDN upload are met
         grunt.registerTask('Upload to CDN', 'Will take the vendorinfo.json file and upload it to a CDN', function () {
             grunt.loadNpmTasks('grunt-aws');
-            grunt.registerTask('populateOvkList', 'Will try to parse the IAB Vendor list and add all newly found vendors to the OVK list', populateOvkFile);
+            grunt.registerTask('populateOvkList', 'Will try to parse the IAB Vendor list and add all newly found vendors to the OVK list', insertDomainsToVendorinfo);
             grunt.task.run(['s3:uploadVendorInfo']);
         });
     }
