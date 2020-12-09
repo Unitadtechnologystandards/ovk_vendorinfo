@@ -202,7 +202,8 @@ module.exports = function (grunt) {
                     newVendorEntry = {
                         "id": currentVendor["id"],
                         "name": currentVendor["name"],
-                        "domains": []
+                        "domains": [],
+                        "macros": []
                     };
                     newVendors.push(newVendorEntry)
                 }
