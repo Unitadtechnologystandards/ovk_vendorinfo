@@ -1,6 +1,6 @@
 {
-    "vendorListVersion": 4,
-    "lastUpdated": "2020-11-27T08:20:52.962Z",
+    "vendorListVersion": 5,
+    "lastUpdated": "2021-01-12T16:40:23.430Z",
     "macrosDefault": ["${gdpr}", "${gdpr_consent}"],
     "vendors": [
         {
@@ -18,7 +18,7 @@
         }, {
             "id": 6,
             "name": "AdSpirit GmbH",
-            "domains": ["adspirit.de", "adspirit.net"]
+            "domains": ["*.adspirit.de", "*.adspirit.net"]
         }, {
             "id": 7,
             "name": "Vibrant Media Limited",
@@ -2535,6 +2535,111 @@
             "id": 909,
             "name": "MobileFuse LLC",
             "domains": []
+        }, {
+            "id": 308,
+            "name": "Rockabox Media Ltd t/a Scoota",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 397,
+            "name": "Demandbase, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 496,
+            "name": "Automattic Ads",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 885,
+            "name": "Dianomi ltd",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 907,
+            "name": "AWIN AG",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 910,
+            "name": "Insticator, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 911,
+            "name": "Redbranch, Inc dba Fraudlogix",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 912,
+            "name": "Squared SAS",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 913,
+            "name": "Clever Advertising, Lda.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 914,
+            "name": "Paypersale.ru",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 915,
+            "name": "Opti Digital SAS",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 916,
+            "name": "Sirdata Cookieless",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 917,
+            "name": "Spotible",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 918,
+            "name": "SPORTORITY UK LTD",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 919,
+            "name": "Livewrapped AB",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 920,
+            "name": "Bertelsmann Data Service GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 921,
+            "name": "Imonomy",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 922,
+            "name": "Amnet GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 924,
+            "name": "Viewdeos 2015 LTD",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 925,
+            "name": "Alphalyr SAS",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 926,
+            "name": "ZAM Network LLC dba Fanbyte",
+            "domains": [],
+            "macros": []
         }
     ]
 }
