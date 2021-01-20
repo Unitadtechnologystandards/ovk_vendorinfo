@@ -1,6 +1,6 @@
 {
-    "vendorListVersion": 5,
-    "lastUpdated": "2021-01-12T16:40:23.430Z",
+    "vendorListVersion": 6,
+    "lastUpdated": "2021-01-20T11:13:54.120Z",
     "macrosDefault": ["${gdpr}", "${gdpr_consent}"],
     "vendors": [
         {
@@ -14,7 +14,7 @@
         }, {
             "id": 4,
             "name": "Roq.ad Inc.",
-            "domains": ["rqtrk.eu"]
+            "domains": ["*.rqtrk.eu"]
         }, {
             "id": 6,
             "name": "AdSpirit GmbH",
@@ -22,11 +22,11 @@
         }, {
             "id": 7,
             "name": "Vibrant Media Limited",
-            "domains": ["intellitxt.com"]
+            "domains": ["*.intellitxt.com"]
         }, {
             "id": 8,
             "name": "Emerse Sverige AB",
-            "domains": ["emerse.com"]
+            "domains": ["*.emerse.com"]
         }, {
             "id": 9,
             "name": "AdMaxim Inc.",
@@ -34,19 +34,19 @@
         }, {
             "id": 10,
             "name": "Index Exchange, Inc. ",
-            "domains": ["*.casalemedia.com/", "js-sec.indexww.com/"]
+            "domains": ["*.casalemedia.com", "*.indexww.com"]
         }, {
             "id": 11,
             "name": "Quantcast International Limited",
-            "domains": ["quantserve.com"]
+            "domains": ["*..quantserve.com"]
         }, {
             "id": 12,
             "name": "BeeswaxIO Corporation",
-            "domains": ["prod.bidr.io"]
+            "domains": ["*.bidr.io"]
         }, {
             "id": 13,
             "name": "Sovrn Holdings Inc",
-            "domains": ["lijit.com"]
+            "domains": ["*.lijit.com"]
         }, {
             "id": 14,
             "name": "Adkernel LLC",
@@ -58,7 +58,7 @@
         }, {
             "id": 16,
             "name": "RTB House S.A.",
-            "domains": ["creativecdn.com"]
+            "domains": ["*.creativecdn.com"]
         }, {
             "id": 18,
             "name": "Widespace AB",
@@ -74,19 +74,19 @@
         }, {
             "id": 22,
             "name": "admetrics GmbH",
-            "domains": ["metrics.nt.vc", "admetrics.events", "admetrics.media"]
+            "domains": ["*.metrics.nt.vc", "*.admetrics.events", "*.admetrics.media"]
         }, {
             "id": 23,
             "name": "Amobee, Inc. ",
-            "domains": ["turn.com"]
+            "domains": ["*.turn.com"]
         }, {
             "id": 24,
             "name": "Epsilon",
-            "domains": ["mplx.com"]
+            "domains": ["*.mplx.com"]
         }, {
             "id": 25,
             "name": "Verizon Media EMEA Limited",
-            "domains": ["s.yimg.com", "sp.analytics.yahoo.com", "advertising.com", "aol.com", "*.yahoo.com", "*.adtech.com", "analytics.yahoo.com"]
+            "domains": ["s.yimg.com", "sp.analytics.yahoo.com", "*.advertising.com", "*.aol.com", "*.yahoo.com", "*.adtech.com", "analytics.yahoo.com"]
         }, {
             "id": 26,
             "name": "Venatus Media Limited",
@@ -114,7 +114,7 @@
         }, {
             "id": 34,
             "name": "NEORY GmbH",
-            "domains": ["ad-srv.net"]
+            "domains": ["*.ad-srv.net"]
         }, {
             "id": 36,
             "name": "RhythmOne DBA Unruly Group Ltd",
@@ -126,11 +126,11 @@
         }, {
             "id": 39,
             "name": "ADITION technologies AG",
-            "domains": ["adition.com"]
+            "domains": ["*.adition.com"]
         }, {
             "id": 40,
             "name": "Active Agent (ADITION technologies AG)",
-            "domains": ["adition.com"]
+            "domains": ["*.adition.com"]
         }, {
             "id": 41,
             "name": "Adverline",
@@ -146,7 +146,7 @@
         }, {
             "id": 45,
             "name": "Smart Adserver",
-            "domains": ["smartadserver.com", "*.smartadserver.com"]
+            "domains": ["*.smartadserver.com", "*.smartadserver.com"]
         }, {
             "id": 47,
             "name": "ADMAN - Phaistos Networks, S.A.",
@@ -158,7 +158,7 @@
         }, {
             "id": 50,
             "name": "Adform",
-            "domains": ["track.adform.net", "server.adform.net", "adx.adform.net", "server.seadform.net", "adform.net", "seadform.net"]
+            "domains": ["track.adform.net", "server.adform.net", "adx.adform.net", "server.seadform.net", "*.adform.net", "*.seadform.net"]
         }, {
             "id": 51,
             "name": "xAd, Inc. dba GroundTruth",
@@ -186,7 +186,7 @@
         }, {
             "id": 60,
             "name": "Rakuten Marketing LLC",
-            "domains": ["nxtck.com"]
+            "domains": ["*.nxtck.com"]
         }, {
             "id": 61,
             "name": "GumGum, Inc.",
@@ -214,11 +214,11 @@
         }, {
             "id": 68,
             "name": "Sizmek by Amazon",
-            "domains": ["serving-sys.com"]
+            "domains": ["*.serving-sys.com"]
         }, {
             "id": 69,
             "name": "OpenX",
-            "domains": ["openx.net"]
+            "domains": ["*.openx.net"]
         }, {
             "id": 70,
             "name": "Yieldlab AG",
@@ -226,11 +226,11 @@
         }, {
             "id": 71,
             "name": "Roku Advertising Services",
-            "domains": ["w55c.net"]
+            "domains": ["*.w55c.net"]
         }, {
             "id": 72,
             "name": "Nano Interactive GmbH",
-            "domains": ["audiencemanager.de"]
+            "domains": ["*.audiencemanager.de"]
         }, {
             "id": 73,
             "name": "Simplifi Holdings Inc.",
@@ -250,7 +250,7 @@
         }, {
             "id": 79,
             "name": "MediaMath, Inc.",
-            "domains": ["mathtag.com"]
+            "domains": ["*.mathtag.com"]
         }, {
             "id": 80,
             "name": "Sharethrough, Inc",
@@ -258,7 +258,7 @@
         }, {
             "id": 82,
             "name": "Smaato, Inc.",
-            "domains": ["smaato.com"]
+            "domains": ["*.smaato.com"]
         }, {
             "id": 83,
             "name": "Visarity Technologies GmbH",
@@ -266,7 +266,7 @@
         }, {
             "id": 84,
             "name": "Semasio GmbH",
-            "domains": ["semasio.net"]
+            "domains": ["*.semasio.net"]
         }, {
             "id": 85,
             "name": "Crimtan Holdings Limited",
@@ -282,7 +282,7 @@
         }, {
             "id": 89,
             "name": "Tapad, Inc.",
-            "domains": ["pixel.tapad.com", "tapad.com", "tapestry.tapad.com"]
+            "domains": ["pixel.tapad.com", "*.tapad.com", "tapestry.tapad.com"]
         }, {
             "id": 90,
             "name": "Teroa S.A.",
@@ -290,7 +290,7 @@
         }, {
             "id": 91,
             "name": "Criteo SA",
-            "domains": ["dnacdn.net", "criteo.com"]
+            "domains": ["*.dnacdn.net", "*.criteo.com"]
         }, {
             "id": 92,
             "name": "1plusX AG",
@@ -298,11 +298,11 @@
         }, {
             "id": 93,
             "name": "Adloox SA",
-            "domains": ["adlooxtracking.com"]
+            "domains": ["*.adlooxtracking.com"]
         }, {
             "id": 94,
             "name": "Blis Media Limited",
-            "domains": ["blismedia.com"]
+            "domains": ["*.blismedia.com"]
         }, {
             "id": 95,
             "name": "Lotame Solutions, inc",
@@ -314,7 +314,7 @@
         }, {
             "id": 98,
             "name": "GroupM UK Limited",
-            "domains": ["mookie1.com", "lemonpi.io"]
+            "domains": ["*.mookie1.com", "*.lemonpi.io"]
         }, {
             "id": 100,
             "name": "Fifty Technology Limited",
@@ -342,11 +342,11 @@
         }, {
             "id": 110,
             "name": "Dynata LLC",
-            "domains": ["researchnow.com"]
+            "domains": ["*.researchnow.com"]
         }, {
             "id": 111,
             "name": "Showheroes SE",
-            "domains": ["showheroes.com"]
+            "domains": ["*.showheroes.com"]
         }, {
             "id": 114,
             "name": "Sublime",
@@ -354,7 +354,7 @@
         }, {
             "id": 115,
             "name": "smartclip Europe GmbH",
-            "domains": ["smartclip.net"]
+            "domains": ["*.smartclip.net"]
         }, {
             "id": 119,
             "name": "Fusio by S4M",
@@ -382,7 +382,7 @@
         }, {
             "id": 128,
             "name": "BIDSWITCH GmbH",
-            "domains": ["bidswitch.net"]
+            "domains": ["*.bidswitch.net"]
         }, {
             "id": 129,
             "name": "IPONWEB GmbH",
@@ -394,11 +394,11 @@
         }, {
             "id": 131,
             "name": "ID5 Technology SAS",
-            "domains": ["id5-sync.com"]
+            "domains": ["*.id5-sync.com"]
         }, {
             "id": 132,
             "name": "Teads ",
-            "domains": ["teads.tv"]
+            "domains": ["*.teads.tv"]
         }, {
             "id": 133,
             "name": "digitalAudience",
@@ -410,11 +410,11 @@
         }, {
             "id": 136,
             "name": "Ströer SSP GmbH (SSP)",
-            "domains": ["adscale.de"]
+            "domains": ["*.adscale.de"]
         }, {
             "id": 137,
             "name": "Ströer SSP GmbH (DSP)",
-            "domains": ["m6r.eu"]
+            "domains": ["*.m6r.eu"]
         }, {
             "id": 138,
             "name": "ConnectAd Realtime GmbH",
@@ -422,7 +422,7 @@
         }, {
             "id": 139,
             "name": "Permodo GmbH",
-            "domains": ["permodo.net"]
+            "domains": ["*.permodo.net"]
         }, {
             "id": 140,
             "name": "Platform161",
@@ -442,7 +442,7 @@
         }, {
             "id": 144,
             "name": "district m inc.",
-            "domains": ["districtm.io"]
+            "domains": ["*.districtm.io"]
         }, {
             "id": 145,
             "name": "Snapsort Inc., operating as Sortable",
@@ -458,7 +458,7 @@
         }, {
             "id": 150,
             "name": "Inskin Media LTD",
-            "domains": ["inskinad.com", "mfad.inskinad.com"]
+            "domains": ["*.inskinad.com", "mfad.inskinad.com"]
         }, {
             "id": 152,
             "name": "Meetrics GmbH",
@@ -494,7 +494,7 @@
         }, {
             "id": 161,
             "name": "Smadex SL",
-            "domains": ["smadex.com"]
+            "domains": ["*.smadex.com"]
         }, {
             "id": 162,
             "name": "Unruly Group Ltd",
@@ -506,7 +506,7 @@
         }, {
             "id": 164,
             "name": "Outbrain UK Ltd",
-            "domains": ["outbrain.com"]
+            "domains": ["*.outbrain.com"]
         }, {
             "id": 165,
             "name": "SpotX, Inc.",
@@ -518,7 +518,7 @@
         }, {
             "id": 168,
             "name": "EASYmedia GmbH",
-            "domains": ["brain.rvty.net"]
+            "domains": ["*.brain.rvty.net"]
         }, {
             "id": 173,
             "name": "Yieldmo, Inc.",
@@ -530,7 +530,7 @@
         }, {
             "id": 177,
             "name": "plista GmbH",
-            "domains": ["plista.com"]
+            "domains": ["*.plista.com"]
         }, {
             "id": 178,
             "name": "Hybrid Theory",
@@ -546,7 +546,7 @@
         }, {
             "id": 184,
             "name": "mediarithmics SAS",
-            "domains": ["mediarithmcis.com"]
+            "domains": ["*.mediarithmcis.com"]
         }, {
             "id": 185,
             "name": "Bidtellect, Inc",
@@ -570,7 +570,7 @@
         }, {
             "id": 195,
             "name": "advanced store GmbH",
-            "domains": ["ad4m.at", "ad4mat.net", "ad4mat.de"]
+            "domains": ["*.ad4m.at", "*.ad4mat.net", "*.ad4mat.de"]
         }, {
             "id": 199,
             "name": "ADUX",
@@ -582,7 +582,7 @@
         }, {
             "id": 202,
             "name": "Telaria, Inc",
-            "domains": ["tremorhub.com"]
+            "domains": ["*.tremorhub.com"]
         }, {
             "id": 203,
             "name": "Revcontent, LLC",
@@ -598,7 +598,7 @@
         }, {
             "id": 209,
             "name": "Delta Projects AB",
-            "domains": ["de17a.com"]
+            "domains": ["*.de17a.com"]
         }, {
             "id": 210,
             "name": "Zemanta, Inc.",
@@ -614,7 +614,7 @@
         }, {
             "id": 213,
             "name": "emetriq GmbH",
-            "domains": ["xplosion.de"]
+            "domains": ["*.xplosion.de"]
         }, {
             "id": 215,
             "name": "ARMIS SAS",
@@ -638,11 +638,11 @@
         }, {
             "id": 224,
             "name": "adrule mobile GmbH",
-            "domains": ["hyj.mobi"]
+            "domains": ["*.hyj.mobi"]
         }, {
             "id": 226,
             "name": "Publicis Media GmbH",
-            "domains": ["vtracy.de"]
+            "domains": ["*.vtracy.de"]
         }, {
             "id": 227,
             "name": "ORTEC B.V.",
@@ -682,7 +682,7 @@
         }, {
             "id": 242,
             "name": "twiago GmbH",
-            "domains": ["twiago.com"]
+            "domains": ["*.twiago.com"]
         }, {
             "id": 243,
             "name": "Cloud Technologies S.A.",
@@ -718,11 +718,11 @@
         }, {
             "id": 253,
             "name": "Improve Digital BV",
-            "domains": ["360yield.com"]
+            "domains": ["*.360yield.com"]
         }, {
             "id": 254,
             "name": "LiquidM Technology GmbH",
-            "domains": ["liquidm.io"]
+            "domains": ["*.liquidm.io"]
         }, {
             "id": 255,
             "name": "Onnetwork Sp. z o.o.",
@@ -734,7 +734,7 @@
         }, {
             "id": 259,
             "name": "ADYOULIKE SA",
-            "domains": ["omnitagjs.com"]
+            "domains": ["*.omnitagjs.com"]
         }, {
             "id": 261,
             "name": "Signal Digital Inc.",
@@ -750,7 +750,7 @@
         }, {
             "id": 264,
             "name": "Adobe Advertising Cloud",
-            "domains": ["everesttech.net"]
+            "domains": ["*.everesttech.net"]
         }, {
             "id": 265,
             "name": "Instinctive, Inc.",
@@ -766,7 +766,7 @@
         }, {
             "id": 273,
             "name": "Bannerflow AB",
-            "domains": ["cdn.bannerflow.com", "c.bannerflow.net", "*.tracker.bannerflow.com", "bannerflow.net", "c.bannerflow.com"]
+            "domains": ["cdn.bannerflow.com", "c.bannerflow.net", "*.tracker.bannerflow.com", "*.bannerflow.net", "c.bannerflow.com"]
         }, {
             "id": 274,
             "name": "Golden Bees",
@@ -794,11 +794,11 @@
         }, {
             "id": 281,
             "name": "Wizaly",
-            "domains": [".wizaly.com", ".wizaly.fr"]
+            "domains": ["*.wizaly.com", "*.wizaly.fr"]
         }, {
             "id": 282,
             "name": "Welect GmbH",
-            "domains": ["welect.de", "wlt-alice.de", "wlt-jupiter.de", "wlct-one.de", "wlct-two.de", "wlct-three.de"]
+            "domains": ["*.welect.de", "*.wlt-alice.de", "*.wlt-jupiter.de", "*.wlct-one.de", "*.wlct-two.de", "*.wlct-three.de"]
         }, {
             "id": 284,
             "name": "WEBORAMA",
@@ -822,19 +822,19 @@
         }, {
             "id": 294,
             "name": "Jivox Corporation",
-            "domains": ["jivox.com"]
+            "domains": ["*.jivox.com"]
         }, {
             "id": 297,
             "name": "Polar Mobile Group Inc.",
-            "domains": ["polarcdn-terrax.com"]
+            "domains": ["*.polarcdn-terrax.com"]
         }, {
             "id": 299,
             "name": "AdClear GmbH",
-            "domains": ["advertiser-specific", "likefoo.advertiser.de"]
+            "domains": ["*.advertiser-specific", "likefoo.advertiser.de"]
         }, {
             "id": 301,
             "name": "zeotap GmbH",
-            "domains": ["zeotap.com", "spl.zeotap.com"]
+            "domains": ["*.zeotap.com", "spl.zeotap.com"]
         }, {
             "id": 302,
             "name": "Mobile Professionals BV",
@@ -1006,7 +1006,7 @@
         }, {
             "id": 382,
             "name": "The Reach Group GmbH",
-            "domains": ["redintelligence.net", "medialead.de"]
+            "domains": ["*.redintelligence.net", "*.medialead.de"]
         }, {
             "id": 384,
             "name": "Pixalate, Inc.",
@@ -1026,7 +1026,7 @@
         }, {
             "id": 394,
             "name": "AudienceProject Aps",
-            "domains": ["userreport.com", "tag.userreport.com", "redbutton.de", "nuggad.net"]
+            "domains": ["*.userreport.com", "tag.userreport.com", "*.redbutton.de", "*.nuggad.net"]
         }, {
             "id": 402,
             "name": "Effiliation",
@@ -1058,7 +1058,7 @@
         }, {
             "id": 416,
             "name": "Commanders Act",
-            "domains": ["commander1.com"]
+            "domains": ["*.commander1.com"]
         }, {
             "id": 418,
             "name": "PROXISTORE",
@@ -1070,7 +1070,7 @@
         }, {
             "id": 423,
             "name": "travel audience GmbH",
-            "domains": ["travelaudience.com"]
+            "domains": ["*.travelaudience.com"]
         }, {
             "id": 424,
             "name": "KUPONA GmbH",
@@ -1094,7 +1094,7 @@
         }, {
             "id": 434,
             "name": "DynAdmic",
-            "domains": ["dyntrk.com"]
+            "domains": ["*.dyntrk.com"]
         }, {
             "id": 435,
             "name": "SINGLESPOT SAS ",
@@ -1182,7 +1182,7 @@
         }, {
             "id": 488,
             "name": "Opinary GmbH",
-            "domains": ["pressekompass.net"]
+            "domains": ["*.pressekompass.net"]
         }, {
             "id": 490,
             "name": "PLAYGROUND XYZ EMEA LTD",
@@ -1286,7 +1286,7 @@
         }, {
             "id": 539,
             "name": "AdDefend GmbH",
-            "domains": ["readiong.net"]
+            "domains": ["*.readiong.net"]
         }, {
             "id": 541,
             "name": "DeepIntent, Inc.",
@@ -1334,7 +1334,7 @@
         }, {
             "id": 559,
             "name": "Otto (GmbH &amp; Co KG)",
-            "domains": ["otto.de", "bidswitch.net"]
+            "domains": ["*.otto.de", "*.bidswitch.net"]
         }, {
             "id": 561,
             "name": "AuDigent",
@@ -1418,7 +1418,7 @@
         }, {
             "id": 602,
             "name": "Online Solution Int Limited",
-            "domains": ["recognified.net", "dspx.tv", "adsafety.net"]
+            "domains": ["*.recognified.net", "*.dspx.tv", "*.adsafety.net"]
         }, {
             "id": 606,
             "name": "Impactify ",
@@ -1434,7 +1434,7 @@
         }, {
             "id": 610,
             "name": "Azerion Holding B.V.",
-            "domains": ["game.api.gamedistribution.com", "gamedistribution.com", "html5.gamedistribution.com", "*.tubia.com", "plinga.com", "revive.plinga.de", "*.player.tubia.com", "player.tubia.com"]
+            "domains": ["game.api.gamedistribution.com", "*.gamedistribution.com", "html5.gamedistribution.com", "*.tubia.com", "plinga.com", "revive.plinga.de", "*.player.tubia.com", "player.tubia.com"]
         }, {
             "id": 612,
             "name": "Adnami Aps",
@@ -1474,11 +1474,11 @@
         }, {
             "id": 625,
             "name": "BILENDI SA",
-            "domains": ["darcs.maximiles.com", "darcs.maximiles.co.uk", "darcs.maximiles.it", "darcs.maximiles.es", "darcs.ivoxpanel.be", "darcs.m3panel.dk", "darcs.m3panel.fi", "darcs.m3panel.no", "darcs.m3panel.se", "darcs.meinungsplatz.at", "darcs.meinungsplatz.ch", "darcs.meinungsplatz.de"]
+            "domains": ["*.darcs.maximiles.com", "darcs.maximiles.co.uk", "darcs.maximiles.it", "darcs.maximiles.es", "darcs.ivoxpanel.be", "darcs.m3panel.dk", "darcs.m3panel.fi", "darcs.m3panel.no", "darcs.m3panel.se", "darcs.meinungsplatz.at", "darcs.meinungsplatz.ch", "darcs.meinungsplatz.de"]
         }, {
             "id": 626,
             "name": "Hivestack Inc.",
-            "domains": ["hivestack.com"]
+            "domains": ["*.hivestack.com"]
         }, {
             "id": 628,
             "name": ": Tappx",
@@ -1514,7 +1514,7 @@
         }, {
             "id": 647,
             "name": "Axel Springer Teaser Ad GmbH",
-            "domains": ["adup-tech.com"]
+            "domains": ["*.adup-tech.com"]
         }, {
             "id": 648,
             "name": "TrueData Solutions, Inc.",
@@ -1522,7 +1522,7 @@
         }, {
             "id": 649,
             "name": "adality GmbH",
-            "domains": ["adrtx.net"]
+            "domains": ["*.adrtx.net"]
         }, {
             "id": 650,
             "name": "Telefonica Investigación y Desarrollo S.A.U",
@@ -1742,7 +1742,7 @@
         }, {
             "id": 730,
             "name": "INFOnline GmbH",
-            "domains": ["ioam.de"]
+            "domains": ["*.ioam.de"]
         }, {
             "id": 731,
             "name": "GeistM Technologies LTD",
@@ -1798,7 +1798,7 @@
         }, {
             "id": 744,
             "name": "Vidazoo Ltd",
-            "domains": ["vidazoo.com"]
+            "domains": ["*.vidazoo.com"]
         }, {
             "id": 745,
             "name": "Justtag Sp. z o.o.",
@@ -1838,7 +1838,7 @@
         }, {
             "id": 755,
             "name": "Google Advertising Products",
-            "domains": ["google.com", "adwords.com", "doubleclick.net", "googleadservices.com", "googleapis.com", "googlesyndication.com", "googletagmanager.com", "googletagservices.com", "googletraveladservices.com", "urchin.com", "*.doubleclick.net", "publisherdomain", "*.bumlam.com", "*.gstatic.com", "*.google.com", "TXT_seton1stpartypropertybygoogle", "google-analytics.com", "e.g.google.de", "google.com/ads", "google.com/ads/measurement", "youtube.com", "*.googleadservices.com/pagead/conversion/"]
+            "domains": ["*.google.com", "*.adwords.com", "*.doubleclick.net", "*.googleadservices.com", "*.googleapis.com", "*.googlesyndication.com", "*.googletagmanager.com", "*.googletagservices.com", "*.googletraveladservices.com", "*.urchin.com", "*.doubleclick.net", "*.bumlam.com", "*.gstatic.com", "*.google.com", "google-analytics.com", "e.g.google.de", "*.google.com/ads", "*.google.com/ads/measurement", "*.youtube.com", "*.googleadservices.com/pagead/conversion/"]
         }, {
             "id": 756,
             "name": "Fandom, Inc.",
@@ -1854,7 +1854,7 @@
         }, {
             "id": 759,
             "name": "RevJet",
-            "domains": ["revjet.com"]
+            "domains": ["*.revjet.com"]
         }, {
             "id": 760,
             "name": "VEXPRO TECHNOLOGIES LTD",
@@ -1954,7 +1954,7 @@
         }, {
             "id": 785,
             "name": "agof - daily digital facts",
-            "domains": ["ioam.de", "abc.de"]
+            "domains": ["*.ioam.de", "*.abc.de"]
         }, {
             "id": 786,
             "name": "TargetVideo GmbH",
@@ -1970,7 +1970,7 @@
         }, {
             "id": 789,
             "name": "IP Deutschland GmbH",
-            "domains": ["technical-service.net"]
+            "domains": ["*.technical-service.net"]
         }, {
             "id": 790,
             "name": "AdGear Technologies, Inc.",
@@ -1986,7 +1986,7 @@
         }, {
             "id": 793,
             "name": "Amazon Advertising",
-            "domains": ["amazon-adsystem.com"]
+            "domains": ["*.amazon-adsystem.com"]
         }, {
             "id": 794,
             "name": "Kubient Inc. ",
@@ -2638,6 +2638,21 @@
         }, {
             "id": 926,
             "name": "ZAM Network LLC dba Fanbyte",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 473,
+            "name": "Sub2 Technologies Ltd",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 923,
+            "name": "Fiducia DLT Limited",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 927,
+            "name": "Silverbullet Data Services Group",
             "domains": [],
             "macros": []
         }
