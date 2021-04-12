@@ -1,6 +1,6 @@
 {
-    "vendorListVersion": 6,
-    "lastUpdated": "2021-01-20T11:13:54.120Z",
+    "vendorListVersion": 7,
+    "lastUpdated": "2021-04-12T08:52:55.900Z",
     "macrosDefault": ["${gdpr}", "${gdpr_consent}"],
     "vendors": [
         {
@@ -2653,6 +2653,351 @@
         }, {
             "id": 927,
             "name": "Silverbullet Data Services Group",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 29,
+            "name": "ETARGET SE",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 75,
+            "name": "M32 Connect Inc",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 196,
+            "name": "AdElement Media Solutions Pvt Ltd",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 208,
+            "name": "Spotad",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 230,
+            "name": "Steel House, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 237,
+            "name": "VGI CTV, Inc",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 581,
+            "name": "Mobilewalla, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 671,
+            "name": "Mediaforce LTD",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 717,
+            "name": "Audience Network",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 726,
+            "name": "YouGov",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 806,
+            "name": "Aarki, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 853,
+            "name": "Ensighten",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 864,
+            "name": "I.R.V. D.O.O.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 928,
+            "name": "Parrable, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 929,
+            "name": "eBay Inc",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 930,
+            "name": "IQM CORPORATION",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 931,
+            "name": "Traffective GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 932,
+            "name": "Unmatched Solutions Limited",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 933,
+            "name": "Hindsight Technology Solutions, Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 934,
+            "name": "Brid Video DOO",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 935,
+            "name": "INIS sp. zo.o.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 936,
+            "name": "Digital Squad",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 937,
+            "name": "SoD ScreenOnDemand GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 938,
+            "name": "dataXtrade GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 940,
+            "name": "Terminus Software Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 941,
+            "name": "ADSOCY",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 942,
+            "name": "JS Web Production",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 943,
+            "name": "Marfeel Solutions, SL (Compass)",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 944,
+            "name": "AudienceRun corp",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 945,
+            "name": "jsdelivr.com",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 946,
+            "name": "belboon GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 947,
+            "name": "Powerspace",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 948,
+            "name": "1Agency",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 949,
+            "name": "SMARTLINE SYSTEMS",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 950,
+            "name": "Stream Eye OOD",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 951,
+            "name": "Spoods GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 952,
+            "name": "ProSiebenSat.1 Digital Data GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 953,
+            "name": "adbalancer Werbeagentur GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 954,
+            "name": "Caroda s.r.o.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 955,
+            "name": "Konodrac S.L.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 956,
+            "name": "AirNow Video Ltd",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 957,
+            "name": "Evolution Technologies Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 958,
+            "name": "Clipr",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 959,
+            "name": "adWMG",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 960,
+            "name": "appTV Ltd.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 961,
+            "name": "PML Innovative Media",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 962,
+            "name": "Tangoo Srl",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 963,
+            "name": "CIBLECLIC",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 964,
+            "name": "Solution coupons",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 965,
+            "name": "Nexx360",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 966,
+            "name": "socoto gmbh & co. kg",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 967,
+            "name": "glomex GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 968,
+            "name": "WEMASS MEDIA AUDIENCE SAFE SOLUTIONS, S.L. ",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 969,
+            "name": "SmartFrame Technologies",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 970,
+            "name": "Frameplay Corporation",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 971,
+            "name": "Goodeed",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 972,
+            "name": "Kargo Global Inc.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 973,
+            "name": "Cluep LLC",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 974,
+            "name": "SpearAd GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 975,
+            "name": "Playrcart Limited",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 976,
+            "name": "Pelmorex Media Corp.",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 977,
+            "name": "Sparklit Networks Inc",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 978,
+            "name": "ARKHEUS",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 979,
+            "name": "Mediascore mbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 980,
+            "name": "WAM Group Ltd, t/a Admix",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 981,
+            "name": "AREIA (ADLOOP)",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 982,
+            "name": "Netpoint Media GmbH",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 983,
+            "name": "Axiom Media Connect",
+            "domains": [],
+            "macros": []
+        }, {
+            "id": 984,
+            "name": "Pulse Innovations Limited",
             "domains": [],
             "macros": []
         }
